@@ -1,0 +1,1184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <meta name="theme-color" content="#faf9f6">
+
+    <title>Nuria & Juan | Nuestra Invitación</title>
+
+    <!-- TIPOGRAFÍAS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Great+Vibes&display=swap"
+          rel="stylesheet">
+
+    <!-- ESTILOS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+
+    <!-- =================================
+         SOBRE DE APERTURA
+    ================================== -->
+
+    <div class="scene" id="scene">
+
+        <div class="envelope" id="envelope">
+
+            <!-- CARTA INTERIOR -->
+            <div class="letter"></div>
+
+            <!-- SOLAPA -->
+            <div class="flap"></div>
+
+            <!-- FRENTE DEL SOBRE -->
+            <div class="pocket"></div>
+
+            <!-- NOMBRES -->
+            <div class="names">
+                <span>Nuria</span>
+                <span>&</span>
+                <span>Juan</span>
+            </div>
+
+            <!-- SELLO -->
+            <button class="seal"
+                    id="seal"
+                    aria-label="Abrir invitación">
+
+                ❦
+
+            </button>
+
+            <!-- INDICACIÓN -->
+            <div class="instruction">
+                Tenemos una noticia...<br>
+                ¡PULSA AQUÍ Y DESLIZA!
+            </div>
+
+            <div class="hint">
+                DESLIZA HACIA ARRIBA
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- =================================
+         INVITACIÓN COMPLETA
+    ================================== -->
+
+    <main class="invitation" id="invitation">
+
+        <!-- PORTADA -->
+
+        <section class="cover">
+
+            <div class="wreath">
+
+                <img src="imagenes/corona-eucalipto.png"
+                     alt="Corona floral de eucalipto">
+
+                <div class="cover-names">
+
+                    <h1>Nuria</h1>
+
+                    <span>&</span>
+
+                    <h1>Juan</h1>
+
+                </div>
+
+            </div>
+
+
+            <div class="cover-date">
+
+                <h2>¡NOS CASAMOS!</h2>
+
+                <p>— 24 · 05 · 2027 —</p>
+
+            </div>
+
+
+            <div class="cover-photo">
+
+                <img src="imagenes/novios.jpeg"
+                     alt="Fotografía de Nuria y Juan">
+
+            </div>
+
+
+            <p class="scroll-hint">
+                ↓ DESLIZA PARA DESCUBRIR ↓
+            </p>
+
+        </section>
+
+
+<!-- =================================
+     MENSAJE DE BIENVENIDA
+================================== -->
+
+<section class="message-section">
+
+    <!-- PARTE BLANCA SUPERIOR -->
+
+    <div class="message-header">
+
+        <div class="branch branch-top">
+            ❧
+        </div>
+
+        <h2>
+            Todos los días pueden ser el comienzo
+            de algo nuevo.
+        </h2>
+
+    </div>
+
+
+    <!-- PAPEL RASGADO INFERIOR -->
+
+    <div class="message-paper">
+
+        <div class="paper-decoration">
+            ❧
+        </div>
+
+        <p>
+            Queremos que seáis testigos de nuestro
+            amor acompañándonos en este día
+            tan especial.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =================================
+     SECCIÓN DE CEREMONIA
+================================== -->
+
+<section class="ceremony-section">
+
+    <div class="ceremony-container">
+
+        <!-- TÍTULO -->
+
+        <div class="ceremony-heading">
+
+            <h2>Ceremonia</h2>
+
+            <span class="ceremony-location">
+                CATEDRAL DE PALMA
+            </span>
+
+        </div>
+
+
+        <!-- FOTOGRAFÍA -->
+
+        <div class="ceremony-photo">
+
+            <img
+                src="imagenes/ceremonia.jpeg"
+                alt="Lugar de celebración de la ceremonia"
+            >
+
+        </div>
+
+
+        <!-- INFORMACIÓN -->
+
+        <div class="ceremony-info">
+
+            <p class="ceremony-address">
+                Plaça de la Seu, Centro
+                <br>
+                07001 Palma
+            </p>
+
+            <p class="ceremony-time">
+                18:00 h
+            </p>
+
+        </div>
+
+
+        <!-- UBICACIÓN -->
+
+ <a
+    href="https://maps.app.goo.gl/hrN154XiWz3wVM7p8"
+    target="_blank"
+    rel="noopener noreferrer"
+    class="ceremony-map"
+    aria-label="Abrir ubicación en Google Maps"
+>
+    <div class="map-icon">
+        <i class="fa-regular fa-map"></i>
+        <i class="fa-solid fa-location-dot"></i>
+    </div>
+
+    <span class="map-caption">
+        (Pulsa para ver en Maps)
+    </span>
+</a>
+
+
+
+    </div>
+
+
+</section>
+<!-- =================================
+     DRESS CODE
+================================== -->
+
+<section class="dress-code-section">
+
+    <div class="dress-code-container">
+
+        <!-- TÍTULO -->
+
+        <h2 class="dress-title">
+            Dress Code
+        </h2>
+
+
+        <!-- TIPO DE VESTIMENTA -->
+
+        <span class="dress-subtitle">
+            FORMAL
+        </span>
+
+
+        <!-- MENSAJE -->
+
+        <p class="dress-message">
+            El blanco está reservado para la novia,
+            <br>
+            ¡nos encantará verte en otros colores!
+        </p>
+
+
+        <!-- ILUSTRACIONES -->
+
+        <div class="dress-illustrations">
+
+            <!-- CORBATA -->
+
+            <div class="dress-item">
+
+                <svg viewBox="0 0 70 100"
+                     class="tie-icon"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2.3"
+                     stroke-linejoin="round"
+                     stroke-linecap="round">
+
+                    <path d="M22 8 L34 17 L46 8 L55 13 L44 27 L42 38 L48 82 L35 96 L22 82 L28 38 L26 27 L15 13 Z"/>
+
+                    <path d="M22 8 L27 25 L35 17 L43 25 L46 8"/>
+
+                    <path d="M27 25 L35 17 L43 25 L39 32 L31 32 Z"/>
+
+                    <path d="M35 32 L28 39 L35 44 L42 39 Z"/>
+
+                </svg>
+
+            </div>
+
+
+            <!-- VESTIDO -->
+
+            <div class="dress-item">
+
+                <svg viewBox="0 0 80 100"
+                     class="dress-icon"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2.3"
+                     stroke-linejoin="round"
+                     stroke-linecap="round">
+
+                    <path d="M31 7 Q40 15 49 7 L54 9 Q59 17 53 25 L49 29 L62 83 Q40 96 18 83 L31 29 L27 25 Q21 17 26 9 Z"/>
+
+                    <path d="M31 29 L40 37 L49 29"/>
+
+                    <path d="M28 42 L23 82"/>
+
+                    <path d="M40 38 L40 88"/>
+
+                    <path d="M52 42 L57 82"/>
+
+                </svg>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- BORDE INFERIOR RASGADO -->
+
+    <div class="dress-bottom"></div>
+
+</section>
+
+
+<!-- =================================
+     SECCIÓN DE AUTOBÚS
+================================== -->
+
+<section class="bus-section">
+
+    <div class="bus-container">
+
+      
+<!-- CARRUSEL DE AUTOBÚS -->
+
+<div class="bus-carousel">
+
+    <!-- FLECHA IZQUIERDA -->
+
+    <button class="bus-arrow bus-prev"
+            id="busPrev"
+            aria-label="Recorrido anterior">
+        ←
+    </button>
+
+
+    <!-- DIAPOSITIVAS -->
+
+    <div class="bus-slides" id="busSlides">
+
+        <!-- IDA -->
+
+        <div class="bus-slide active">
+
+            <div class="bus-route">
+
+                <h3>IDA</h3>
+
+                <p>Plaza España</p>
+
+                <span class="route-arrow">↓</span>
+
+                <p>Restaurante</p>
+
+                <strong class="bus-time">
+                    HORA POR DEFINIR
+                </strong>
+
+            </div>
+
+            <a href="#"
+               class="bus-map"
+               aria-label="Ver parada de ida">
+
+                <svg viewBox="0 0 100 100"
+                     class="bus-icon"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2.5"
+                     stroke-linecap="round"
+                     stroke-linejoin="round">
+
+                    <rect x="17" y="12" width="66" height="72" rx="9"/>
+                    <path d="M17 27 H83"/>
+                    <path d="M25 31 H75 V57 H25 Z"/>
+                    <path d="M25 63 H75 V76 H25 Z"/>
+                    <path d="M34 84 V90 H25 V84"/>
+                    <path d="M66 84 V90 H75 V84"/>
+                    <path d="M17 39 H11 V57 H17"/>
+                    <path d="M83 39 H89 V57 H83"/>
+                    <path d="M29 66 H42"/>
+                    <path d="M58 66 H71"/>
+                    <circle cx="29" cy="79" r="3"/>
+                    <circle cx="71" cy="79" r="3"/>
+
+                </svg>
+
+                <span class="bus-map-caption">
+                    (Pulsa para ver parada)
+                </span>
+
+            </a>
+
+        </div>
+
+
+        <!-- VUELTA -->
+
+        <div class="bus-slide">
+
+            <div class="bus-route">
+
+                <h3>VUELTA</h3>
+
+                <p>Restaurante</p>
+
+                <span class="route-arrow">↓</span>
+
+                <p>Plaza España</p>
+
+                <strong class="bus-time">
+                    02:00 h
+                </strong>
+
+            </div>
+
+            <a href="#"
+               class="bus-map"
+               aria-label="Ver parada de vuelta">
+
+                <svg viewBox="0 0 100 100"
+                     class="bus-icon"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2.5"
+                     stroke-linecap="round"
+                     stroke-linejoin="round">
+
+                    <rect x="17" y="12" width="66" height="72" rx="9"/>
+                    <path d="M17 27 H83"/>
+                    <path d="M25 31 H75 V57 H25 Z"/>
+                    <path d="M25 63 H75 V76 H25 Z"/>
+                    <path d="M34 84 V90 H25 V84"/>
+                    <path d="M66 84 V90 H75 V84"/>
+                    <path d="M17 39 H11 V57 H17"/>
+                    <path d="M83 39 H89 V57 H83"/>
+                    <path d="M29 66 H42"/>
+                    <path d="M58 66 H71"/>
+                    <circle cx="29" cy="79" r="3"/>
+                    <circle cx="71" cy="79" r="3"/>
+
+                </svg>
+
+                <span class="bus-map-caption">
+                    (Pulsa para ver parada)
+                </span>
+
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <!-- FLECHA DERECHA -->
+
+    <button class="bus-arrow bus-next"
+            id="busNext"
+            aria-label="Siguiente recorrido">
+        →
+    </button>
+
+</div>
+
+
+<!-- INDICADORES -->
+
+<div class="bus-indicators">
+
+    <button class="bus-dot active"
+            data-slide="0"
+            aria-label="Ver recorrido de ida">
+    </button>
+
+    <button class="bus-dot"
+            data-slide="1"
+            aria-label="Ver recorrido de vuelta">
+    </button>
+
+</div>
+
+    </div>
+
+</section>
+
+<!-- =====================================
+     CONFIRMAR ASISTENCIA
+===================================== -->
+
+<section class="confirmacion">
+
+    <div class="confirmacion-contenido">
+
+        <h2 class="confirmacion-titulo">
+            Confirmar<br>
+            Asistencia
+        </h2>
+
+        <p class="confirmacion-subtitulo">
+            ¿NOS ACOMPAÑAS?
+        </p>
+
+        <!-- SOBRE CLICABLE -->
+
+        <button
+            type="button"
+            class="rsvp-trigger"
+            id="openRsvp"
+            aria-label="Abrir formulario de confirmación">
+
+            <svg viewBox="0 0 64 72"
+                 class="rsvp-envelope"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <rect x="12" y="19"
+                      width="40" height="43"
+                      fill="none"
+                      stroke="#292929"
+                      stroke-width="2"/>
+
+                <path d="M20 37 C20 26 32 31 32 37
+                         C32 31 44 26 44 37
+                         C44 46 32 53 32 53
+                         C32 53 20 46 20 37Z"
+                      fill="none"
+                      stroke="#292929"
+                      stroke-width="2"/>
+
+                <path d="M23 57 H41"
+                      stroke="#292929"
+                      stroke-width="2"/>
+
+                <path d="M5 12 L12 17
+                         M12 5 L14 12
+                         M22 8 L22 15"
+                      stroke="#292929"
+                      stroke-width="2"
+                      stroke-linecap="round"/>
+
+                <path d="M51 10 C51 4 59 4 59 10
+                         C59 4 67 4 67 10
+                         C67 16 59 21 59 21
+                         C59 21 51 16 51 10Z"
+                      fill="none"
+                      stroke="#292929"
+                      stroke-width="2"/>
+
+            </svg>
+
+        </button>
+
+        <p class="rsvp-instruction">
+            (Pulsa en el sobre)
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     FORMULARIO EMERGENTE
+===================================== -->
+
+<div class="rsvp-modal"
+     id="rsvpModal"
+     aria-hidden="true">
+
+    <div class="rsvp-content"
+         role="dialog"
+         aria-modal="true"
+         aria-labelledby="rsvpTitle">
+
+        <!-- ENCABEZADO -->
+
+        <div class="rsvp-header">
+
+            <span id="rsvpTitle">
+                Confirmar Asistencia
+            </span>
+
+            <button
+                type="button"
+                class="rsvp-close"
+                id="closeRsvp"
+                aria-label="Cerrar formulario">
+                ×
+            </button>
+
+        </div>
+
+
+        <form id="rsvpForm">
+
+            <!-- ASISTENCIA -->
+
+            <div class="rsvp-field">
+
+                <label>
+                    <strong>¿Asistirás?</strong>
+                </label>
+
+                <div class="radio-options">
+
+                    <label>
+                        <input type="radio"
+                               name="asistencia"
+                               value="Sí"
+                               required>
+                        Sí
+                    </label>
+
+                    <label>
+                        <input type="radio"
+                               name="asistencia"
+                               value="No">
+                        No
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <!-- ADULTOS -->
+
+            <div class="rsvp-field">
+
+                <label for="adultos">
+                    <strong>Número de adultos</strong>
+                </label>
+
+                <select id="adultos" name="adultos">
+
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+
+                </select>
+
+            </div>
+
+
+            <!-- CAMPOS DINÁMICOS DE ADULTOS -->
+
+            <div id="adultosContainer"></div>
+
+
+            <!-- NIÑOS -->
+
+            <div class="rsvp-field">
+
+                <label for="ninos">
+                    <strong>Número de niños</strong>
+                </label>
+
+                <select id="ninos" name="ninos">
+
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+
+                </select>
+
+            </div>
+
+
+            <!-- AUTOBÚS -->
+
+            <div class="rsvp-field">
+
+                <label>
+                    <strong>
+                        ¿Vas a hacer uso del servicio de autobús?
+                    </strong>
+                </label>
+
+                <div class="radio-options vertical">
+
+                    <label>
+                        <input type="radio"
+                               name="autobus"
+                               value="Sí"
+                               required>
+                        Sí
+                    </label>
+
+                    <label>
+                        <input type="radio"
+                               name="autobus"
+                               value="No">
+                        No
+                    </label>
+
+                </div>
+
+            </div>
+
+
+            <!-- CANCIÓN -->
+
+            <div class="rsvp-field">
+
+                <label for="cancion">
+                    <strong>
+                        ¿Qué canción te gustaría que sonara en la boda?
+                    </strong>
+                </label>
+
+                <input
+                    type="text"
+                    id="cancion"
+                    name="cancion"
+                    placeholder="(opcional)">
+
+            </div>
+
+
+            <!-- BOTÓN ENVIAR -->
+
+            <button type="submit"
+                    class="rsvp-submit">
+
+                ➤ Pulsa aquí para enviar
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+
+     
+<!-- =====================================
+     SECCIÓN ITINERARIO
+===================================== -->
+
+<section class="itinerario">
+
+    <!-- DECORACIÓN DE HOJAS -->
+    <div class="itinerario-hojas">
+        <svg viewBox="0 0 160 115" xmlns="http://www.w3.org/2000/svg">
+            <g fill="none" stroke="#887b64" stroke-width="1.2"
+               stroke-linecap="round">
+
+                <path d="M15 105 Q70 55 150 5"/>
+                <path d="M48 79 Q28 43 12 39 Q14 63 48 79Z"/>
+                <path d="M48 79 Q42 47 29 27 Q26 52 48 79Z"/>
+                <path d="M70 63 Q57 29 62 12 Q82 35 70 63Z"/>
+                <path d="M70 63 Q94 31 119 29 Q104 55 70 63Z"/>
+                <path d="M91 48 Q91 17 110 5 Q115 29 91 48Z"/>
+                <path d="M91 48 Q122 38 145 46 Q121 60 91 48Z"/>
+                <path d="M33 91 Q14 78 2 82 Q12 102 33 91Z"/>
+
+                <path d="M48 79 L29 27"/>
+                <path d="M70 63 L62 12"/>
+                <path d="M70 63 L119 29"/>
+                <path d="M91 48 L110 5"/>
+                <path d="M91 48 L145 46"/>
+            </g>
+        </svg>
+    </div>
+
+
+    <!-- TÍTULO -->
+    <h2 class="itinerario-titulo">Itinerario</h2>
+
+
+    <!-- LISTA DE ACTIVIDADES -->
+    <div class="itinerario-lista">
+
+
+        <!-- CEREMONIA -->
+        <article class="itinerario-evento">
+
+            <svg class="itinerario-icono"
+                 viewBox="0 0 80 80"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <g fill="none" stroke="#292929"
+                   stroke-width="1.6"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+
+                    <path d="M13 27 L40 10 L67 27"/>
+                    <path d="M17 27 H63 V65 H17 Z"/>
+                    <path d="M23 65 V31 H57 V65"/>
+                    <path d="M23 31 L40 41 L57 31"/>
+                    <path d="M23 31 L40 53 L57 31"/>
+                    <path d="M40 10 V5"/>
+                    <path d="M36 5 Q40 0 44 5"/>
+                    <path d="M28 65 V56 H52 V65"/>
+                    <path d="M31 56 V50 M49 56 V50"/>
+                </g>
+            </svg>
+
+            <p class="itinerario-hora">18:00 h</p>
+            <p class="itinerario-nombre">Ceremonia</p>
+
+        </article>
+
+
+        <!-- COCKTAIL -->
+        <article class="itinerario-evento">
+
+            <svg class="itinerario-icono"
+                 viewBox="0 0 80 80"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <g fill="none" stroke="#292929"
+                   stroke-width="1.6"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+
+                    <path d="M14 17 H66 L58 32 Q40 46 22 32 Z"/>
+                    <path d="M22 32 L40 44 L58 32"/>
+                    <path d="M40 44 V65"/>
+                    <path d="M27 65 H53"/>
+                    <path d="M30 69 H50"/>
+                    <path d="M19 17 Q20 5 32 10"/>
+                    <path d="M17 17 L19 25"/>
+                    <path d="M49 14 L55 8"/>
+                    <path d="M40 8 V14"/>
+                    <circle cx="57" cy="22" r="2"/>
+                </g>
+            </svg>
+
+            <p class="itinerario-hora">19:30 h</p>
+            <p class="itinerario-nombre">Cocktail</p>
+
+        </article>
+
+
+        <!-- BANQUETE -->
+        <article class="itinerario-evento">
+
+            <svg class="itinerario-icono"
+                 viewBox="0 0 80 80"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <g fill="none" stroke="#292929"
+                   stroke-width="1.6"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+
+                    <path d="M13 31 H67 V39 H13 Z"/>
+                    <path d="M18 39 V65 M62 39 V65"/>
+                    <path d="M14 65 H66"/>
+                    <path d="M25 31 V24 M55 31 V24"/>
+                    <path d="M25 24 Q40 12 55 24"/>
+                    <path d="M40 24 V31"/>
+                    <path d="M17 18 V26 M14 18 V26"/>
+                    <path d="M63 18 V26 M66 18 V26"/>
+                    <path d="M9 33 V46 M6 33 V46"/>
+                    <path d="M71 33 V46 M74 33 V46"/>
+                    <path d="M24 45 H56"/>
+                    <path d="M29 45 V57 M51 45 V57"/>
+                    <path d="M31 52 H49"/>
+                    <path d="M35 52 V58 M45 52 V58"/>
+                </g>
+            </svg>
+
+            <p class="itinerario-hora">20:30 h</p>
+            <p class="itinerario-nombre">Banquete</p>
+
+        </article>
+
+
+        <!-- FIESTA -->
+        <article class="itinerario-evento">
+
+            <svg class="itinerario-icono"
+                 viewBox="0 0 80 80"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <g fill="none" stroke="#292929"
+                   stroke-width="1.5"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+
+                    <circle cx="37" cy="37" r="24"/>
+                    <ellipse cx="37" cy="37" rx="11" ry="24"/>
+                    <ellipse cx="37" cy="37" rx="24" ry="11"/>
+                    <path d="M13 37 H61 M37 13 V61"/>
+                    <path d="M20 20 L54 54 M54 20 L20 54"/>
+                    <path d="M37 8 L40 3 L44 8"/>
+                    <path d="M37 61 L37 68"/>
+                    <path d="M31 68 H43"/>
+                    <path d="M57 12 L63 6 M63 6 L68 12"/>
+                    <path d="M66 32 L72 35 L66 38"/>
+                    <path d="M8 65 L13 59 L18 65"/>
+                </g>
+            </svg>
+
+            <p class="itinerario-hora">23:00 h</p>
+            <p class="itinerario-nombre">Fiesta</p>
+
+        </article>
+
+    </div>
+
+
+    <!-- IMAGEN INFERIOR -->
+    <div class="itinerario-paisaje"></div>
+
+</section>
+
+
+
+
+
+<!-- =====================================
+     SLIDER DE FOTOGRAFÍAS
+===================================== -->
+
+<section class="galeria">
+
+    <div class="slider-contenedor">
+
+        <!-- FOTOGRAFÍAS -->
+
+        <div class="slider-fotos" id="sliderFotos">
+
+
+              <!-- REFLEJO DE FONDO -->
+        <img
+        class="slider-fondo"
+        src="imagenes/foto1.jpg"
+        alt=""
+        aria-hidden="true"
+        >
+
+            <div class="slider-imagen activa">
+                <img src="imagenes/foto1.jpeg"
+                     alt="Fotografía de los novios">
+            </div>
+
+            <div class="slider-imagen">
+                <img src="imagenes/foto2.jpeg"
+                     alt="Recuerdo de los novios">
+            </div>
+
+            <div class="slider-imagen">
+                <img src="imagenes/foto3.jpeg"
+                     alt="Fotografía de pareja">
+            </div>
+
+        </div>
+
+
+        <!-- FLECHA ANTERIOR -->
+
+        <button class="slider-flecha slider-anterior"
+                id="sliderAnterior"
+                type="button"
+                aria-label="Fotografía anterior">
+
+            ←
+
+        </button>
+
+
+        <!-- FLECHA SIGUIENTE -->
+
+        <button class="slider-flecha slider-siguiente"
+                id="sliderSiguiente"
+                type="button"
+                aria-label="Fotografía siguiente">
+
+            →
+
+        </button>
+
+    </div>
+
+
+    <!-- INDICADORES -->
+
+    <div class="slider-indicadores" id="sliderIndicadores">
+
+        <button class="slider-punto activo"
+                type="button"
+                aria-label="Ver fotografía 1"></button>
+
+        <button class="slider-punto"
+                type="button"
+                aria-label="Ver fotografía 2"></button>
+
+        <button class="slider-punto"
+                type="button"
+                aria-label="Ver fotografía 3"></button>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     CUENTA REGRESIVA
+===================================== -->
+
+<section class="countdown-section">
+
+    <!-- BORDE RASGADO SUPERIOR -->
+    <div class="countdown-borde"></div>
+
+    <!-- DECORACIÓN DE HOJAS -->
+    <div class="countdown-hojas">
+        <svg viewBox="0 0 160 115"
+             xmlns="http://www.w3.org/2000/svg">
+
+            <g fill="none"
+               stroke="#82735d"
+               stroke-width="2"
+               stroke-linecap="round">
+
+                <path d="M5 110 Q75 60 155 5"/>
+
+                <path d="M35 89 Q13 57 5 48 Q8 76 35 89Z"/>
+                <path d="M35 89 Q28 55 17 35 Q15 65 35 89Z"/>
+
+                <path d="M60 72 Q42 37 48 17 Q70 42 60 72Z"/>
+                <path d="M60 72 Q89 38 111 35 Q91 63 60 72Z"/>
+
+                <path d="M83 55 Q80 23 99 7 Q108 33 83 55Z"/>
+                <path d="M83 55 Q113 43 143 49 Q116 68 83 55Z"/>
+
+                <path d="M110 36 Q112 13 133 2 Q137 27 110 36Z"/>
+            </g>
+        </svg>
+    </div>
+
+
+    <!-- CONTENIDO -->
+    <div class="countdown-contenido">
+
+        <h2 class="countdown-titulo">
+            Nos vemos en
+        </h2>
+
+
+        <!-- RELOJ DE ARENA -->
+        <div class="countdown-reloj">
+
+            <svg viewBox="0 0 64 80"
+                 xmlns="http://www.w3.org/2000/svg">
+
+                <g fill="none"
+                   stroke="#292929"
+                   stroke-width="2"
+                   stroke-linecap="round"
+                   stroke-linejoin="round">
+
+                    <path d="M17 8 H47"/>
+                    <path d="M17 72 H47"/>
+
+                    <path d="M20 10
+                             C20 24 23 28 32 40
+                             C23 52 20 56 20 70"/>
+
+                    <path d="M44 10
+                             C44 24 41 28 32 40
+                             C41 52 44 56 44 70"/>
+
+                    <path d="M15 5 H49 V13 H15 Z"/>
+                    <path d="M15 67 H49 V75 H15 Z"/>
+
+                    <path d="M24 22 L40 32"/>
+                    <path d="M40 22 L24 32"/>
+
+                    <path d="M24 58 L40 48"/>
+                    <path d="M40 58 L24 48"/>
+
+                    <path d="M32 40 L32 51"/>
+                    <path d="M27 55 H37"/>
+
+                </g>
+            </svg>
+
+        </div>
+
+
+        <!-- CONTADORES -->
+        <div id="countdown" class="countdown-contadores">
+
+            <div class="countdown-item">
+                <strong id="days">00</strong>
+                <span>Días</span>
+            </div>
+
+            <div class="countdown-item">
+                <strong id="hours">00</strong>
+                <span>Horas</span>
+            </div>
+
+            <div class="countdown-item">
+                <strong id="minutes">00</strong>
+                <span>Mins</span>
+            </div>
+
+            <div class="countdown-item">
+                <strong id="seconds">00</strong>
+                <span>Segs</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =====================================
+     MENSAJE FINAL / INVITACIONES
+===================================== -->
+
+<div class="popup-final" id="popupFinal">
+    <div class="popup-final-contenido">
+        <button class="popup-cerrar" id="cerrarPopup">&times;</button>
+
+        <span class="popup-decoracion">❧</span>
+
+        <h2>¿Te ha gustado?</h2>
+
+        <p>
+            ¿Buscas una invitación digital aún más especial y personalizada?
+            Diseñamos invitaciones únicas para contar tu historia.
+        </p>
+
+        
+        <a href="#" class="popup-boton" id="whatsappFinal">
+         <i class="fa-brands fa-whatsapp"></i>
+             ¡Hablemos!
+        </a>
+
+
+        <small>Gracias por visitarnos ♡</small>
+    </div>
+</div>
+
+
+
+    </main>
+
+</body>
+</html>
